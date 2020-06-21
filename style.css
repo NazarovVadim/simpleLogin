@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+button{
+    padding: 20px 40px;
+    margin-right: 50px;
+    border-radius: 25px;
+    outline: none;
+}
+button:hover{
+    cursor: pointer;
+}
+li{
+    margin-top: 20px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+.delete{
+    padding: 2px 8px;
+    color: red;
+    margin-left: 15px;
+    border-radius: 0;
+}
